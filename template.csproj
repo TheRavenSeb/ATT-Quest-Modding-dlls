@@ -1,0 +1,111 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<RootNamespace>MyModName_Quest</RootNamespace>
+		<LangVersion>latest</LangVersion>
+		<IsPackable>false</IsPackable>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<AssemblyName>MyModName_Quest</AssemblyName>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Core.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Il2CppAlta.Api.Client">
+	    <HintPath>.\questdlls\Il2CppAlta.Api.Client.dll</HintPath>
+	  </Reference>
+
+	  <Reference Include="Il2Cppmscorlib">
+	    <HintPath>.\questdlls\Il2Cppmscorlib.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppInterop.Runtime">
+	    <HintPath>.\questdlls\Il2CppInterop.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.CommandLine">
+	    <HintPath>.\questdlls\Il2CppAlta.CommandLine.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Core.Runtime">
+	    <HintPath>.\questdlls\Il2CppAlta.Core.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Coroutines">
+	    <HintPath>.\questdlls\Il2CppAlta.Coroutines.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.EventBus.Runtime">
+	    <HintPath>.\questdlls\Il2CppAlta.EventBus.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Global.Runtime">
+	    <HintPath>.\questdlls\Il2CppAlta.Global.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.IO">
+	    <HintPath>.\questdlls\Il2CppAlta.IO.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.LifecycleManagement.Runtime">
+	    <HintPath>.\questdlls\Il2CppAlta.LifecycleManagement.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.LifetimeScopes">
+	    <HintPath>.\questdlls\Il2CppAlta.LifetimeScopes.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.MenuItem">
+	    <HintPath>.\questdlls\Il2CppAlta.MenuItem.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.NetworkTransport.Runtime">
+	    <HintPath>.\questdlls\Il2CppAlta.NetworkTransport.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Platform">
+	    <HintPath>.\questdlls\Il2CppAlta.Platform.dll</HintPath>
+	  </Reference>
+	  <Reference Include="0Harmony.dll">
+	    <HintPath>.\questdlls\0Harmony.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.PlatformInformation">
+	    <HintPath>.\questdlls\Il2CppAlta.PlatformInformation.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Platform.Oculus">
+	    <HintPath>.\questdlls\Il2CppAlta.Platform.Oculus.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.PlatformInformation.Runtime">
+	    <HintPath>.\questdlls\Il2CppAlta.PlatformInformation.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Profiling.Runtime">
+	    <HintPath>.\questdlls\Il2CppAlta.Profiling.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.SearchableTools">
+	    <HintPath>.\questdlls\Il2CppAlta.SearchableTools.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Serialization.Runtime">
+	    <HintPath>.\questdlls\Il2CppAlta.Serialization.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Singletons">
+	    <HintPath>.\questdlls\Il2CppAlta.Singletons.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Timing.Runtime">
+	    <HintPath>.\questdlls\Il2CppAlta.Timing.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.Values">
+	    <HintPath>.\questdlls\Il2CppAlta.Values.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppAlta.XRManagement">
+	    <HintPath>.\questdlls\Il2CppAlta.XRManagement.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppRoot.Township">
+	    <HintPath>.\questdlls\Il2CppRoot.Township.dll</HintPath>
+	  </Reference>
+	  <Reference Include="MelonLoader">
+	    <HintPath>.\questdlls\MelonLoader.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.CoreModule">
+	    <HintPath>.\questdlls\UnityEngine.CoreModule.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+</Project>
